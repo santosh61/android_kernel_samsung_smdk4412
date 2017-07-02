@@ -670,7 +670,7 @@ struct mdnie_tunning_info tunning_table[CABC_MAX][MODE_MAX][SCENARIO_MAX] = {
 			{"STANDARD_GALLERY",	tune_standard_gallery},
 			{"STANDARD_VT",		tune_standard_vt},
 		}, {
-			{"CYANOGENMOD",		tune_cyanogenmod},
+			{"NATURAL_UI",		tune_natural_ui},
 			{"NATURAL_UI",		tune_natural_ui},
 			{"NATURAL_VIDEO",	tune_natural_video},
 			{"NATURAL_VIDEO_WARM",	tune_natural_video},
@@ -680,7 +680,7 @@ struct mdnie_tunning_info tunning_table[CABC_MAX][MODE_MAX][SCENARIO_MAX] = {
 			{"NATURAL_GALLERY",	tune_natural_gallery},
 			{"NATURAL_VT",		tune_natural_vt},
 		}, {
-			{"CYANOGENMOD",		tune_cyanogenmod},
+			{"MOVIE_UI",		tune_movie_ui},
 			{"MOVIE_UI",		tune_movie_ui},
 			{"MOVIE_VIDEO",		tune_movie_video},
 			{"MOVIE_VIDEO",		tune_movie_video},
