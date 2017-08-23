@@ -68,7 +68,7 @@ static struct timeval last_powerkeypress;
 #define TIME_LONGPRESS 500
 #define POWERPRESS_DELAY 100
 #define POWERPRESS_TIMEOUT 1000
-#define KNOCKON_DELAY 500
+#define KNOCKON_DELAY 330
 
 //#define DEBUG_PRINT
 
@@ -498,7 +498,6 @@ void touch_press(void)
 #ifdef DEBUG_PRINT
 	pr_info("[TOUCHWAKE] Touch press detected\n");
 #endif
-
 	if (knockon) {
 		if (knocked) {
 			knocked = false;
